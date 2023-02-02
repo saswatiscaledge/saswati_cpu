@@ -3,7 +3,7 @@ module mul(rs1_reg,rs2_reg,mul_rd,m_co);
 parameter N=16;
   input[N-1:0] rs1_reg,rs2_reg;
   output reg[N-1:0] mul_rd,m_co;
-  reg[15:0] multiplicand,multiplier,result;
+  reg[N-1:0] multiplicand,multiplier,result;
   
   always@(*)begin
     multiplicand=rs1_reg;
