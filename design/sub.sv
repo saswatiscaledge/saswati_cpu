@@ -5,8 +5,11 @@ module sub(rs1_reg,rs2_reg,sub_rd);
            output reg [N-1:0] sub_rd;
   
  // always @(*) begin
-   // {sub_rd} = rs1_reg - rs2_reg ;
-  //s = a+b+ci;
+      /* if(rs1_reg > rs2_reg)
+    		{sub_rd} = rs1_reg - rs2_reg ;
+	else
+		$display("**************rs1 < rs2,exception************");*/
+   //s = a+b+ci;
   //co = a+b+ci;  
       genvar i;
       for(i=0;i<N;i++)begin
