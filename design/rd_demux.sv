@@ -1,7 +1,7 @@
 module rd_demux(rd_sel,rd_val,rd_reg);//1*16
 parameter N=16;
-parameter SEL=4;
-input [SEL-1:0]rd_sel;
+parameter SEL_LINE=4;
+input [SEL_LINE-1:0]rd_sel;
 input [N-1:0]rd_val;
 output reg[N-1:0]rd_reg[N-1:0];
 
