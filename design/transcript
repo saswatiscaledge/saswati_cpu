@@ -1,11 +1,27 @@
 # vsim -c top -do "run -all; exit
 # " 
-# Start time: 15:51:12 on Feb 07,2023
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: (vopt-13130) Failed to find design unit top.
-#         Searched libraries:
-#             work
-# Optimization failed
-# Error loading design
-# End time: 15:51:12 on Feb 07,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
+# Start time: 10:42:52 on Feb 09,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7d linux_x86_64 Feb 15 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# run -all
+# rs1_reg= 11010100100100, rs2_reg=101111010000001, add_rd= 110101110100101, co=0001010000000000
+# rs1_reg= 1101011000001001, rs2_reg=101011001100011, add_rd= 1000000001101010, co=0101011000000001
+# rs1_reg= 111101100001101, rs2_reg=1001100110001101, add_rd= 1110001010000000, co=0001100100001101
+#  exit
+# End time: 10:42:53 on Feb 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
